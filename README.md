@@ -27,7 +27,7 @@
 
 ### Continuous feature testing - @minae-mina
 
-**리포지토리 설명** <br>
+**리포지토리 설명** <br> <br>
 **ClosedWorld.ipynb** <br>
 ClosedWorld 환경의 실험을 위한 데이터 전처리 및 모델(RandomForest)
 - Objective
