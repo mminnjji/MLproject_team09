@@ -28,7 +28,39 @@
 ### Continuous feature testing - @minae-mina
 
 **리포지토리 설명**
+**ClosedWorld.ipynb**
+ClosedWorld 환경의 실험을 위한 데이터 전처리 및 모델(RandomForest)
+- Objective
+  classify the 95 monitored websites.
+- Data Used
+  **mon_standard.pkl**: data from "monitored" websites.
+   - Class count: 95
+   - Instance count: 19,000 (95 websites, each with 10 subpages which are non-index pages, observed 20 times each)
+- Features
+  - X1_mon : the sequence of **packet timestamps**
+  - X2_mon : the sequence of **packet size * direction**
+  - X3_mon : the sequence of **cumulative packet sizes**
+  - X4_mon : the sequence of **bursts**
 
+- Steps
+  1. 준비
+      - 데이터 업로드
+      - 파일 경로 설정
+  2. 데이터 전처리
+      - Feature Extraction
+      - Sequence Length Normalization
+  3. Random Forest 모델 실험
+      - X1_mon
+      - X1_mon + X2_mon
+      - X1_mon + X2_mon + X3_mon
+    
+
+
+**OpenWorld.ipynb**
+OpenWorld 환경의 실험(Binary Classification | Multi-Class Classification)을 위한 데이터 전처리 및 모델(SVM or RandomForest)
+1. 데이터 전처리는 categorical_feature.ipynb 을 참고함
+2. Categorical Features Continuous Features
+2. SVM 모델 결과가 좋지 않아 RandomForest 모델을 시도함
 ---------------
 
 ### Categorical feature testing - @mminnjji
