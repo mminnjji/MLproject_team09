@@ -27,9 +27,8 @@
 
 ### Continuous feature testing - @minae-mina
 
-**리포지토리 설명**
-
-**ClosedWorld.ipynb**
+**리포지토리 설명** <br>
+**ClosedWorld.ipynb** <br>
 ClosedWorld 환경의 실험을 위한 데이터 전처리 및 모델(RandomForest)
 - Objective
   classify the 95 monitored websites.
@@ -55,9 +54,7 @@ ClosedWorld 환경의 실험을 위한 데이터 전처리 및 모델(RandomFore
       - X1_mon + X2_mon
       - X1_mon + X2_mon + X3_mon
     
-
-
-**OpenWorld.ipynb**
+**OpenWorld.ipynb** <br>
 OpenWorld 환경의 실험(Binary Classification | Multi-Class Classification)을 위한 데이터 전처리 및 모델(SVM or RandomForest)
 1. 데이터 전처리는 categorical_feature.ipynb 을 참고함
 2. Categorical Features Continuous Features
