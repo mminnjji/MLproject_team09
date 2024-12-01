@@ -73,3 +73,12 @@ feature_test.ipynb → 실제 모델에 적용시켜보며 유효한 지표 선�
 
 **feature 제작 + 시각화하여 추출확인** <br>
 categorical_feature.ipynb
+
+---------------
+
+
+### Model Experimentation and Findings - @jisu-1104 @soviet0205
+
+**파일** <br>
+s_final_categorical.ipynb → final_categorical.ipynb 를 수정하여 random forest 모델로 정확도 개선 및 feature 1~9 를 사용한 실험을 함 <br>
+finding을 찾아 문서로 작성함
