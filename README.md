@@ -13,7 +13,7 @@ Data Preprocessing and Model (SVM or RandomForest) for Experiments in an Open-Wo
 Modify final_categorical.ipynb to improve accuracy and conduct experiments with SVM and Random Forest model <br><br>
 
 ## Other Files
-**categorical_feature.ipynb** <br>
+**final_categorical.ipynb** <br>
 Implementation of Open-World SVM/Random Forest and Closed-World Random Forest Models <br><br>
 
 **feature_test.ipynb** <br>
