@@ -36,7 +36,8 @@ A File Summarizing Findings <br><br>
   - `mon_standard.pkl`, `unmon_standard10.pkl`
 
 ## 2. Set Data Path
-- Enter the path where the data files are located into the `path` variable.
+- For OpenWorld.ipynb and ClosedWorld.ipynb, enter the path where the data files are located into the path variable under the "Preparation" section at the top of the file.
+- For s_final_categorical.ipynb, check the # File Path Setup section and enter the path into the path variable.
 
 ## 3. Run
 - Execute the script as instructed.
